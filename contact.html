@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Projects</a>
+                <a class="navbar-brand" href="https://fjam100.github.io/">Projects</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -52,6 +52,9 @@
                     </li>
                     <li>
                         <a href="https://fjam100.github.io/resume.html">Resume</a>
+                    </li>
+					<li>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -66,88 +69,33 @@
         <!-- Page Header -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Selected Projects
+                <h1 class="page-header">Contact
                 </h1>
             </div>
         </div>
-        <!-- /.row -->
+		<div class="container">
+		  <form action="/action_page.php">
 
-        <!-- Projects Row -->
-        <div class="row">
-			<div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/deburringCropped.jpg" alt="Robotic Deburring" style="width:600px;height:300px;">
-                </a>
-				<h5>
-                    <a href="#">Robotic Deburring</a>
-                </h5>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/stewart.gif" alt="Control of a Stewart Platform" style="width:600px;height:300px;">
-                </a>
-				<h5>
-                    <a href="#">Control of a Stewart Platform</a>
-                </h5>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/gesture.gif" alt="Gesture Controlled Articulated Arm" style="width:600px;height:300px;">
-                </a>
-				<h5>
-                    <a href="#">Gesture Controlled Articulated Arm</a>
-                </h5>
-            </div>
-			<div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/fishing.gif" alt="Learning to play snake" style="width:600px;height:300px;">
-                </a>
-				<h5>
-                    <a href="#">Let's go Fishing Robot</a>
-                </h5>
-            </div>
-			
-        <!-- /.row -->
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-        <!-- Projects Row -->
-			<div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/reactionless.gif" alt="Learning to play snake" style="width:600px;height:300px;">
-                </a>
-				<h5>
-                    <a href="#">Reactionless Maneuvering of a Space Robot</a>
-                </h5>
-            </div>
-        
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/spaceExperimental.gif" alt="Space Robot Microgravity Simulator" style="width:600px;height:300px;">
-                </a>
-				<h5>
-                    <a href="#">Microgravity Simulator for Recreating Space Robots</a>
-                </h5>
-            </div>
-			
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/snake.gif" alt="" style="width:600px;height:300px;">
-                </a>
-                <h5>
-                    <a href="#">Learning to play Snake</a>
-                </h5>
-            </div>
-			
-			<div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/setup.jpg" alt="" style="width:600px;height:300px;">
-                </a>
-                <h5>
-                    <a href="#">Capturing Human Force and Motion Data</a>
-                </h5>
-            </div>
-        </div>
-        <!-- /.row -->
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+			<label for="country">Country</label>
+			<select id="country" name="country">
+			  <option value="australia">Australia</option>
+			  <option value="canada">Canada</option>
+			  <option value="usa">USA</option>
+			</select>
+
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit">
+
+		  </form>
+		</div>
         <hr>
 
         <!-- Pagination -->
@@ -211,4 +159,7 @@
 
 </body>
 
+
 </html>
+
+
